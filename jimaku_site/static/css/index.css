@@ -1,0 +1,293 @@
+@font-face {
+    font-family: "MyRoboto";
+    src: url("../fonts/Roboto-Black.ttf") format('truetype'),
+    url("../fonts/Roboto-BlackItalic.ttf") format('truetype'),
+    url("../fonts/Roboto-Bold.ttf") format('truetype'),
+    url("../fonts/Roboto-BoldItalic.ttf") format('truetype'),
+    url("../fonts/Roboto-Italic.ttf") format('truetype'),
+    url("../fonts/Roboto-Light.ttf") format('truetype'),
+    url("../fonts/Roboto-LightItalic.ttf") format('truetype'),
+    url("../fonts/Roboto-Medium.ttf") format('truetype'),
+    url("../fonts/Roboto-MediumItalic.ttf") format('truetype'),
+    url("../fonts/Roboto-Regular.ttf") format('truetype'),
+    url("../fonts/Roboto-Thin.ttf") format('truetype'),
+    url("../fonts/Roboto-ThinItalic.ttf") format('truetype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Roboto:wght@100&display=swap');
+
+body{
+    /*height: 10000px;*/
+    background: #282828;
+    overflow-y: scroll;
+    /*display: flex;*/
+    /*justify-content: center;*/
+}
+a{
+
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-family: Inter, sans-serif;
+    /*font-family: Inter, sans-serif;*/
+}
+p{
+    color: #000000;
+    font-size: 20px;
+    font-family: Inter, sans-serif;
+}
+.taskbar{
+    width: 70%;
+    height: 45px;
+    border: 1px;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+tastbar menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.radio{
+    background: #4E4E4E;
+    width:20%;
+    height: 35px;
+    /*position: fixed;*/
+    display: flex;
+    justify-content: center;
+    border-radius: 35px;
+    float: left;
+    margin:5px auto;
+}
+.radio p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+audio{
+    width: 90%;
+    height: 25px;
+    margin:5px auto;
+}
+.menu{
+    background: #4E4E4E;
+    width: 50%;
+    height: 45px;
+    /*position: fixed;*/
+    display: flex;
+    justify-content: center;
+    border-radius: 35px;
+    border: none;
+    float: left;
+}
+.menu a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.window{
+    background: #D9D9D9;
+    width: 50%;
+    height: 35px;
+    display:table-cell;
+    text-align: center;
+    vertical-align: middle;
+    /*position: fixed;*/
+    /*display: flex;*/
+    justify-content: center;
+    border-radius: 35px;
+    border: none;
+    float: left;
+    margin:5px auto;
+}
+.Search{
+    background: #4E4E4E;
+    width: 20%;
+    height: 35px;
+    /*position: fixed;*/
+    display: flex;
+    justify-content: center;
+    border-radius: 35px;
+    float: left;
+    margin:5px auto;
+}
+.search{
+    background: #D9D9D9;
+    width: 85%;
+    height: 25px;
+    /*position: fixed;*/
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 35px;
+    margin:5px auto;
+}
+
+input[type="search"]{
+    /*margin-left: 10px;*/
+    text-align: left;
+}
+
+.SearchPng{
+    display: flex;
+    justify-content: center;
+    height: 25px;
+    width: 25px;
+    margin:5px auto;
+}
+
+.void{
+    width: 5%;
+    height: 35px;
+    /*position: fixed;*/
+    display: flex;
+    justify-content: center;
+    border-radius: 35px;
+    float: left;
+    margin:5px auto;
+}
+.name{
+    color: #D9D9D9;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    color: #D9D9D9;
+    font-size: 100px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    color: #D9D9D9;
+}
+h4{
+    display: flex;
+    justify-content: center;
+    color: #D9D9D9;
+    margin: auto;
+}
+
+.Workspace{
+    background: #4E4E4E;
+    width: 80%;
+    height: 1100px;
+    /*position: fixed;*/
+    border-radius: 35px;
+    margin:10px auto;
+
+}
+.area{
+    background: #D9D9D9;
+    width: 92%;
+    height: 1000px;
+    /*position: fixed;*/
+    border-radius: 35px;
+    margin:10px auto;
+    display: flex;
+}
+.Video{
+    margin:20px auto;
+    width: 70%;
+    height: 450px;
+    border: 4px solid #4E4E4E;
+    border-radius: 35px;
+}
+.turn{
+    background: #D9D9D9;
+    width: 92%;
+    height: 150px;
+    /*position: fixed;*/
+    border-radius: 35px;
+    margin:10px auto;
+}
+.New_Episodes{
+    background: #D9D9D9;
+    width: 92%;
+    height: 450px;
+    /*position: fixed;*/
+    border-radius: 35px;
+    margin:10px auto;
+}
+table{
+    width: 92%;
+    height: 80%;
+    margin:10px auto;
+    /*border: 4px solid #4E4E4E;*/
+    display: flex;
+    justify-content: center;
+}
+tr{
+    height: 140px;
+    /*border: 4px solid #4E4E4E;*/
+}
+td{
+    width: 450px;
+    /*border: 4px solid #4E4E4E;*/
+}
+.New_Episodes table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cell{
+    background: #4E4E4E;
+    width: 26.6666667%;
+    height: 130px;
+    border-radius: 35px;
+    display: flex;
+    justify-content: left;
+    margin-top: 10px;
+    float: left;
+}
+.cell_episodes{
+    background: #4E4E4E;
+    width: 90%;
+    height: 130px;
+    border-radius: 35px;
+    display: flex;
+    justify-content: left;
+    margin-top: 10px;
+    float: left;
+}
+.fond{
+    background: #D9D9D9;
+    width: 110px;
+    height: 110px;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px;
+}
+.News{
+    background: #D9D9D9;
+    width: 92%;
+    height: 300px;
+    /*position: fixed;*/
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    margin:10px auto;
+}
+.news{
+    background: #4E4E4E;
+    width: 92%;
+    height: 90%;
+    /*position: fixed;*/
+    border-radius: 35px;
+    margin:10px auto;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    width: 280px;
+    height: 145px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+
