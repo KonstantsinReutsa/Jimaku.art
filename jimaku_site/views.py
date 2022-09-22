@@ -8,6 +8,9 @@ from django.template.response import TemplateResponse
 def home(request):
     return TemplateResponse(request, "home.html")
 
+def index(request):
+    return TemplateResponse(request, "index.html")
+
 def catalog(request):
     return TemplateResponse(request, "catalog.html")
 

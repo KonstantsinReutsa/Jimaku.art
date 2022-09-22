@@ -21,6 +21,7 @@ from jimaku_site import views
 urlpatterns = [
     path('', views.home),
     path('home.html', views.home),
+    path('index.html', views.index),
     path("catalog.html", views.catalog),
     path('profile.html', views.profile),
     path('player.html', views.player),
