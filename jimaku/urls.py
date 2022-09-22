@@ -19,9 +19,10 @@ from django.urls import re_path
 from jimaku_site import views
 
 urlpatterns = [
-    path('', views.home),
+    path('', views.index),
     path('home.html', views.home),
     path('index.html', views.index),
+    path('mhome.html', views.mhome),
     path("catalog.html", views.catalog),
     path('profile.html', views.profile),
     path('player.html', views.player),

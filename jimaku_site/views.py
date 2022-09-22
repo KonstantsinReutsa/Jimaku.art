@@ -11,6 +11,9 @@ def home(request):
 def index(request):
     return TemplateResponse(request, "index.html")
 
+def mhome(request):
+    return TemplateResponse(request, "mhome.html")
+
 def catalog(request):
     return TemplateResponse(request, "catalog.html")
 
